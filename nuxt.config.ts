@@ -18,6 +18,15 @@ export default defineNuxtConfig({
     }
   },
 
+  runtimeConfig: {
+    public: {
+      apiBase: process.env.NUXT_PUBLIC_API_BASE || 'http://localhost:4000',
+
+      supabaseUrl: process.env.NUXT_PUBLIC_SUPABASE_URL,
+
+      supabaseKey: process.env.NUXT_PUBLIC_SUPABASE_KEY,
+    }
+  },
   compatibilityDate: '2024-07-11',
 
   eslint: {

@@ -15,6 +15,8 @@
     "@iconify-json/simple-icons": "^1.2.83",
     "@internationalized/date": "^3.12.1",
     "@nuxt/ui": "^4.7.1",
+    "@nuxtjs/supabase": "^2.0.9",
+    "@supabase/supabase-js": "^2.106.1",
     "@tanstack/table-core": "^8.21.3",
     "@unovis/ts": "^1.6.5",
     "@unovis/vue": "^1.6.5",
