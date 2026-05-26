@@ -14,9 +14,9 @@ const links = [[{
     open.value = false
   }
 }, {
-  label: 'Inbox',
-  icon: 'i-lucide-inbox',
-  to: '/inbox',
+  label: 'Clientes',
+  icon: 'i-lucide-users',
+  to: '/dashboard/clientes',
   badge: '4',
   onSelect: () => {
     open.value = false
@@ -29,10 +29,34 @@ const links = [[{
     open.value = false
   }
 },
+ {
+  label: 'Variedad',
+  icon: 'i-lucide-users',
+  to: '/dashboard/variedad',
+  onSelect: () => {
+    open.value = false
+  }
+},
 {
-  label: 'Sedes',
+  label: 'Tipos Jabas',
+  icon: 'i-lucide-users',
+  to: '/dashboard/tipos-jabas',
+  onSelect: () => {
+    open.value = false
+  }
+},
+ {
+  label: 'Calidades',
+  icon: 'i-lucide-users',
+  to: '/dashboard/calidad',
+  onSelect: () => {
+    open.value = false
+  }
+},
+{
+  label: 'Frutas',
   icon: 'i-lucide-building',
-  to: '/dashboard/sedes',
+  to: '/dashboard/frutas',
   onSelect: () => {
     open.value = false
   }
